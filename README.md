@@ -3,3 +3,6 @@ This bot was developed to run or restart some essential programs on my server, w
 
 #### Run
 To run this but, you need to install the dependencies with ```yarn``` and after run ``` yarn start```
+
+#### Result
+![Result](/images/bot.jpeg)
