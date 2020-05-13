@@ -13,7 +13,7 @@ const client = new Client({
 
 const bot = new Bot(client)
 
-client.on('ready', async () => Alert.showAlert('[BOT] Pedro Entringer', 'Client is ready!'))
+client.on('ready', () => Alert.showAlert('[BOT] Pedro Entringer', 'Client is ready!'))
 
 client.on('authenticated', (session) => Session.save(session))
 

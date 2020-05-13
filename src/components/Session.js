@@ -10,7 +10,7 @@ export default class Session {
     fs.writeFile(
       sessionPath,
       JSON.stringify(session),
-      async (error) => Alert.showAlert('[BOT] Pedro Entringer', error.message)
+      async (error) => error && Alert.showAlert('[BOT] Pedro Entringer', error.message)
     )
   }
 
