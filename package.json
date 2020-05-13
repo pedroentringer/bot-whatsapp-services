@@ -1,0 +1,32 @@
+{
+  "name": "bot-whatsapp-services",
+  "version": "1.0.0",
+  "description": "This bot was developed to run or restart some essential programs on my server, without having to connect to my VPN, access the server and manually restart the service.",
+  "main": "src/index.js",
+  "author": {
+    "name": "Pedro Entringer",
+    "email": "pedroentringer97@gmail.com",
+    "url": "https://pedroentringer.dev"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "sucrase-node src/index.js"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "@pedroentringer/parser-command-line": "^1.0.1",
+    "axios": "^0.19.2",
+    "whatsapp-web.js": "^1.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "sucrase": "^3.13.0"
+  }
+}
