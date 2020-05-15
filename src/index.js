@@ -2,7 +2,7 @@ import { Client } from 'whatsapp-web.js'
 
 import Bot from './components/Bot'
 import Alert from './components/Alert'
-import Session from '../components/Session'
+import Session from './components/Session'
 
 const client = new Client({
   puppeteer: {
