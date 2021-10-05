@@ -17,7 +17,7 @@
   ],
   "dependencies": {
     "@pedroentringer/parser-command-line": "^1.0.1",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "whatsapp-web.js": "^1.5.1"
   },
   "devDependencies": {
